@@ -1,0 +1,34 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>References</title>
+    <a href="/CV/Home">Home || </a>
+    <a href="/CV/Education">Education || </a>
+    <a href="/CV/Projects">Projects || </a>
+    <a href="/CV/References">References </a>
+</head>
+<body>
+    <div>
+        <br />
+        <ul>
+            <li>@ViewBag.ref1</li>
+            <ul>
+                <li>Email : @ViewBag.ref1email</li>
+            </ul>
+        </ul>
+        <ul>
+            <li>@ViewBag.ref2</li>
+            <ul>
+                <li>Email : @ViewBag.ref2email</li>
+            </ul>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Education</title>
+    <a href="/CV/Home">Home || </a>
+    <a href="/CV/Education">Education || </a>
+    <a href="/CV/Projects">Projects || </a>
+    <a href="/CV/References">References </a>
+</head>
+<body>
+    <div> 
+        <br />
+        <ul>
+            <li>
+                <b><h3>O Levels :</h3></b>
+                <ul>
+                    <li>
+                        Institution : @ViewBag.institution
+                    </li>
+                    <li>
+                        Year : @ViewBag.OlevelYear
+                    </li>
+
+                    <li>
+                        Board : @ViewBag.board
+                    </li>
+
+                </ul>
+            </li>
+            <li>
+                <b><h3>A Levels :</h3></b>
+                <ul>
+                    <li>
+                        Institution : @ViewBag.institution
+                    </li>
+                    <li>
+                        Year : @ViewBag.AlevelYear
+                    </li>
+                    <li>
+                        Board : @ViewBag.board
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <b><h3>BSc :</h3></b>
+                <ul>
+                    <li>
+                        University : @ViewBag.university
+                    </li>
+                    <li>
+                        Semester : @ViewBag.semester
+                    </li>
+                    <li>
+                        CGPA : @ViewBag.cgpa
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
